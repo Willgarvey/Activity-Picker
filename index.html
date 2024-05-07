@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <title>Activity Picker</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Activity Picker - Summer Edition</h1>
+        <div class="form-group">
+            <label for="condition">Weather Condition:</label>
+            <select name="condition" id="condition">
+                <option value="sunny">Sunny</option>
+                <option value="rainy">Rainy</option>
+                <option value="windy">Windy</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="result">Suggested Activity:</label>
+            <textarea rows="4" name="result" id="result"></textarea>
+        </div>
+        <button id="weatherButton">Select Activity</button>   
+    </div>
+</body>
+</html>
